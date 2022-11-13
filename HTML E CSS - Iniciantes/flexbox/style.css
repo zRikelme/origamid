@@ -1,0 +1,28 @@
+.flex {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    place-content: center;
+      /* height: 100vh serve para aproveitar 100% da tela */ 
+}
+
+.grid {
+    margin-top: 60px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+}
+
+body {
+    margin: 0px;
+}
+
+h2 {
+    background: #e7e7e7;
+    border: 1px solid #d7d7d7;
+    padding: 20px;
+    margin: 0;
+}
+ /* semprer usar o flex-basis no 0 ou no auto */

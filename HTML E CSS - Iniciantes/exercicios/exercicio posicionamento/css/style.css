@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f7f7f7;
+}
+
+.logo {
+    text-align: center;
+    padding: 50px;
+}
+
+.links ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.links li a {
+    text-decoration: none;
+    margin-right: 20px;
+    background: white;
+    padding: 20px;
+    color: black;
+}
+
+.bike-foto {
+    width: 500px;
+}
+
+.conteudo-1 {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.conteudo-1 p {
+    position: relative;
+    top: 200px;
+    width: 500px;
+}
+
+.conteudo-1 h2 {
+   position: relative;
+   top:100px;
+   left: 200px;
+}
