@@ -33,25 +33,123 @@ body {
     color: black;
 }
 
-.bike-foto {
-    width: 500px;
-}
-
-.conteudo-1 {
-    display: flex;
+.conteudo {
+    margin-left:  200px;
+    padding: 70px;
     background-color: white;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.conteudo-1 p {
-    position: relative;
-    top: 200px;
+    margin-top: 80px;
     width: 500px;
 }
 
-.conteudo-1 h2 {
-   position: relative;
-   top:100px;
-   left: 200px;
+.conteudo h2 {
+    text-align: end;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.conteudo p {
+    width: 400px;
+    text-align: end;
+    font-size: 20px	;
+    margin-left: -40px;
+}
+
+button {
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+   margin-left: 58%;
+   margin-top: 30px;
+   border: none;
+   background-color: red;
+   border-radius: 4px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#bike-img {
+    position: absolute;
+    top: 255px;
+    right: 250px;
+    height: 355px;
+    width: 500px;
+}
+
+/* Segunda parte do conteudo */
+
+.conteudo-2 {
+    display: flex;
+    align-items: center;
+    margin-left: 655px;
+    background-color: white;
+    width: 500px;
+    height: 430px;
+}
+
+.description {
+    margin: auto;
+    padding-top: 60px;
+    width: 300px;
+}
+
+.description span {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.description p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.description div {
+    margin-bottom: 40px;
+}
+
+.desc-top img {
+    position: absolute;
+    left: 700px;
+}
+
+.vantagens-logo {
+    position: absolute;
+    top: 750px;
+    left: 250px;
+    width: 300px;
+}
+
+.vantagens-logo h2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 60px;
+    text-align: end;
+    color:#c3c3c3;
+}
+
+/* cabecalho */
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+/* outros */
+
+#red-trace {
+    position: absolute;
+    top: 42%;
+    margin-left: 630px;
+    background-color: red;
+    width: 55px;
+    height: 4px;
+
 }
