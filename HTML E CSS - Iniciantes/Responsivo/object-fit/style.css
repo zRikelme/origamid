@@ -1,0 +1,20 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.cover img {
+    height: 100%;
+    object-fit: cover;  /* serve para cortar a imagem ao diminuir a tela */
+    object-position: center center;
+}  
+
+p {
+    font-size: 1.5rem;
+}

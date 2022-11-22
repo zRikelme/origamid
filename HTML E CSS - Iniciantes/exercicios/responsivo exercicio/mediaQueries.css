@@ -1,0 +1,66 @@
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    
+    body {
+        display: grid;
+    }
+    
+    #logo {
+        margin-right: 60px;
+    }
+
+    #bike {
+       grid-column: 1 / -1;
+       width: 400px ;
+       order: -1;
+       margin-left: 80px;
+    }
+
+    .menu {
+       display: grid;
+       grid-template-columns: 1fr;
+       margin-right: 50px;
+       text-align: center;
+    }
+    
+    section.introducao {
+        width: 320px;
+        margin-left: 80px;
+    }
+
+    h1#label-introdução {
+        font-size: 1.8rem;
+    }
+
+    .introducao p{
+        text-align: left;
+    }
+
+    .vantagens {
+        margin-top: 20px;
+        width: 320px;
+        margin-left: 80px;
+    }
+
+    .subtitulo {
+        display: grid;
+        grid-column: 1 / -1;
+        margin-right: 200px;
+        font-size: 2.4rem;
+    }
+
+    .rodape {
+        display: block;
+        height: 50px;
+        width: 100%;
+        margin-right:100px;
+    }
+
+    .rodape p {
+        font-size: 1.2rem;
+    }
+
+    .subtitulo::after {
+        display: none;
+      }
+}   
+
