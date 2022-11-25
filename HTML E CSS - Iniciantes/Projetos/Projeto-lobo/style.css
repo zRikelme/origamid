@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.logo img {
+    margin-left: 60px;
+    width: 130px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-right: 60px;
+}
+
+.menu ul a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #141414;
+}
+
+/* Primeiro conteudo */
+
+.first-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first-content img {
+    width: 360px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.first-text {
+    position: relative;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+.first-text img{
+    position: absolute;
+    top: -110px;
+    left: -80px;
+    width: 140px;
+    z-index: -1;
+}
+
+.first-text h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    width: 600px;
+    color: #141414;
+}
+
+.first-text p {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #525252;
+}
+
+.second-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 90px;
+}
+
+.second-content h2 {
+    font-weight: bold;
+    font-size: 128px;
+    color: #E0E0E0;
+    text-align: left;
+}
+
+.second-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #545454 ;
+    width: 530px;
+    margin-left: -100px;
+    margin-top: 21px;
+}
+
+.content-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    position: relative;
+    top: -400px;
+    right: 100px;
+    grid-column: 2;
+    background-color: #F5F5F5;
+    margin-bottom: 80px;
+}
+
+.content-2 ul li {
+    margin: 10px;
+    font-size: 14px;
+    color: #141414;
+    background-color: white;
+    word-break: break-all;
+    padding: 5px;
+    list-style: none;
+}
+
+.content-2 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #141414;
+}
+
+.content-2 p {
+    font-size: 14px;
+    color: #545454;
+}
+
+.text-list ul li{
+    display: inline-block;
+    flex-direction: row;
+    margin-left: 40px;
+    width: 80px;
+    text-align: center;
+}
+
+/* rodapé*/
+
+.section-3 {
+    background-color: #141414;
+}
+
+.section-3 strong {
+    color: white;
+}
+
+.sec3-text p {
+    color: #A3A3A3;
+    font-size: 24px;
+}
+
+.info-box p {
+    color: #A3A3A3;
+}
+
+.info-box span {
+    color: white;
+}
+
