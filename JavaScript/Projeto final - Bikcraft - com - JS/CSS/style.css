@@ -4,6 +4,7 @@
 @import 'global/footer.css';
 
 /* UTILIDADES */
+@import 'utilidades/animacao.css';
 @import 'utilidades/formulario.css';
 @import 'utilidades/componentes.css';
 @import 'utilidades/tipografia.css';
